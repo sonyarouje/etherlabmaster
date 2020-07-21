@@ -393,6 +393,7 @@ $ sudo apt install -y  build-essential libtool automake tree dkms
 $ sudo apt-get install mercurial
 # Kernel headers are needed:
 $ sudo apt install raspberrypi-kernel-headers
+$ sudo reboot -h now
 ```
 Note: TSC is not available for ARM so the option "ENABLE_CYCLES=NO" is needed.
 ```
